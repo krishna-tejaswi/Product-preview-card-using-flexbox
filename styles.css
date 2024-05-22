@@ -1,0 +1,84 @@
+body{
+  font-family:Montserrat, Fraunces ;
+}
+
+card{
+  object-fit: fill;
+}
+
+.perfume img{
+  max-inline-size: 100%;
+  object-fit: cover;
+}
+
+.space p{
+  letter-spacing: 10px;
+}
+
+h1{
+  font-family: Fraunces;
+}
+
+.content{
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem
+}
+
+.para p{
+  line-height: 1.6;
+}
+
+.amount{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.amount h1{
+  color: rgb(72, 176, 150);;
+}
+
+.cart img{
+  max-inline-size: 20px;
+  height: 20px;
+}
+
+.cart{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(72, 176, 150);
+  border-radius: 9px;
+
+}
+
+@media screen and (min-width:768px){
+
+  body{
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .card{
+    background-color: white;
+    max-width: 1018px;
+    max-height: 625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .cart{
+    padding: 0 0 10px 0;
+  }
+
+
+}
